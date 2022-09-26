@@ -4,7 +4,7 @@ description:        히지노 블로그
 author:             Hyginus
 baseurl:
 url:                "https://wowboya.github.io"
-#theme:              jekyll-theme-clean-blog
+theme: jekyll-theme-clean-blog
 # Social Profiles
 github_username:    wowboya
 
