@@ -69,11 +69,10 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  jekyll (>= 3.8.5)
   jekyll-feed (~> 0.6)
   jekyll-paginate (~> 1.1.0)
   jekyll-sitemap
-  jekyll-theme-clean-blog
+  jekyll-theme-clean-blog (>= 4.0.12)
   tzinfo-data
   webrick (~> 1.7)
 

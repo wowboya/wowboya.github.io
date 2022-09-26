@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", ">= 3.8.5"
+# gem "jekyll", ">= 3.8.5"
+gem "jekyll-theme-clean-blog", ">= 4.0.12"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
@@ -17,4 +18,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "webrick", "~> 1.7"
 
 # theme
-gem "jekyll-theme-clean-blog"
+
