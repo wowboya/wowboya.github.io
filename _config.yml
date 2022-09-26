@@ -2,7 +2,7 @@ title:              히지노 블로그
 email:              wowboya@naver.com
 description:        히지노 블로그
 author:             Hyginus
-baseurl:            
+baseurl:
 url:                "https://wowboya.github.io"
 theme:              jekyll-theme-clean-blog
 # Social Profiles
