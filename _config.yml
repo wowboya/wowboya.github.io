@@ -289,7 +289,7 @@ defaults:
       show_date: true
       date_fotmat: "%Y-%m-%d"
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
       share: true
@@ -298,9 +298,10 @@ defaults:
       path: ""
       type: tag
     values:
-      author_profile: true
+      author_profile: false
   - scope:
       path: ""
       type: category
     values:
       comments: false
+      author_profile: false
