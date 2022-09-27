@@ -1,0 +1,72 @@
+# main links
+main:
+  - title: "홈"
+    url: https://wowboya.github.io
+  - title: "개발"
+    url: /develop
+  - title: "일상"
+    url: /life
+
+sideMenu:
+  - title: 개발
+    children:
+      - title: "프로그래밍"
+#        url: /develop/programming
+        children:
+          - title: "Problem Solving"
+            url: /develop/programming/ps
+          - title: "Java"
+            url: /develop/programming/java
+          - title: "Python"
+            url: /develop/programming/python
+      - title: "CS지식"
+#        url: /develop/cs
+        children:
+          - title: "Data Structure"
+            url: /develop/cs/ds
+          - title: "algorithm"
+            url: /develop/cs/algo
+          - title: "database"
+            url: /develop/cs/db
+          - title: "network"
+            url: /develop/cs/network
+          - title: "os"
+            url: /develop/cs/os
+      - title: "프레임워크"
+        children:
+          - title: "Spring"
+            url: /develop/framework/spring
+          - title: "Django"
+            url: /develop/framework/django
+#        url: /develop/framework
+      - title: "기타"
+#        url: /develop/etc
+
+#  - title: 일상
+#    children:
+#      - title: "일기"
+#        url: /life/diary
+#      - title: "여행"
+#        url: /life/travel
+#      - title: "그 외"
+#        url: /life/etc
+
+#  - title: Content
+#    children:
+#      - title: "Working with Posts"
+#        url: /docs/posts/
+#      - title: "Working with Pages"
+#        url: /docs/pages/
+#      - title: "Working with Collections"
+#        url: /docs/collections/
+#      - title: "Helpers"
+#        url: /docs/helpers/
+#      - title: "Utility Classes"
+#        url: /docs/utility-classes/
+#
+#  - title: Extras
+#    children:
+#      - title: "Stylesheets"
+#        url: /docs/stylesheets/
+#      - title: "JavaScript"
+#        url: /docs/javascript/
