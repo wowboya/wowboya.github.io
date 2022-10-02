@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "홈"
-    url: https://wowboya.github.io
-  - title: "개발"
-    url: /develop
-  - title: "일상"
-    url: /life
+#  - title: "홈"
+#    url: https://wowboya.github.io
+#  - title: "개발"
+#    url: /develop
+#  - title: "일상"
+#    url: /life
 
 sideMenu:
   - title: 개발
@@ -14,30 +14,30 @@ sideMenu:
 #        url: /develop/programming
         children:
           - title: "Problem Solving"
-            url: /categories/#ps
+            url: /categories/problem-solving/
           - title: "Java"
-            url: /categories/#java
+            url: /categories/java/
           - title: "Python"
-            url: /categories/#python
+            url: /categories/python/
       - title: "CS지식"
 #        url: /develop/cs
         children:
           - title: "Data Structure"
-            url: /categories/cs/#ds
+            url: /categories/cs/ds/
           - title: "algorithm"
-            url: /categories/cs/#algo
+            url: /categories/cs/algo/
           - title: "database"
-            url: /categories/cs/#db
+            url: /categories/cs/db/
           - title: "network"
-            url: /categories/cs/#network
+            url: /categories/cs/network/
           - title: "os"
-            url: /categories/cs/#os
+            url: /categories/cs/os/
       - title: "프레임워크"
         children:
           - title: "Spring"
-            url: /categories/framework/#spring
+            url: /categories/framework/spring/
           - title: "Django"
-            url: /categories/framework/#django
+            url: /categories/framework/django/
 #        url: /develop/framework
       - title: "기타"
 #        url: /develop/etc

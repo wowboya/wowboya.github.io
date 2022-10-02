@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "히지노 블로그"
+title                    : "히지노 개발 블로그"
 title_separator          : "-"
 subtitle                 : "개발, 일상" # site tagline that appears below site title in masthead
 name                     : "히지노"
@@ -60,11 +60,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true # true, false (default)
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : true # true, false (default)
+  search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -106,10 +106,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "TS Kim"
+  name             : "TS K"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "KT에서 근무 중인 SW 개발자입니다."
-  location         : "서울 송파구"
+  bio              : "개발 공부 목적 블로그"
+  location         : "서울"
   email            : "wowboya@naver.com"
   links:
 #    - label: "Email"
@@ -294,14 +294,20 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "sideMenu"
   - scope:
       path: ""
       type: tag
     values:
       author_profile: false
+      sidebar:
+        nav: "sideMenu"
   - scope:
       path: ""
       type: category
     values:
       comments: false
       author_profile: false
+      sidebar:
+        nav: "sideMenu"

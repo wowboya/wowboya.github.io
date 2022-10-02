@@ -5,5 +5,5 @@ permalink: /categories-grid/
 entries_layout: grid
 author_profile: false
 sidebar:
-nav: "sideMenu"
+    nav: "sideMenu"
 ---
