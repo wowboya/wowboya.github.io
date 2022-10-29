@@ -23,24 +23,27 @@ sideMenu:
 #        url: /develop/cs
         children:
           - title: "Data Structure"
-            url: /categories/cs/ds
+            url: /categories/ds
           - title: "algorithm"
-            url: /categories/cs/algo
+            url: /categories/algo
           - title: "database"
-            url: /categories/cs/db
+            url: /categories/db
           - title: "network"
-            url: /categories/cs/network
+            url: /categories/network
           - title: "os"
-            url: /categories/cs/os
+            url: /categories/os
       - title: "프레임워크"
         children:
           - title: "Spring"
-            url: /categories/framework/spring
+            url: /categories/spring
           - title: "Django"
-            url: /categories/framework/django
+            url: /categories/django
 #        url: /develop/framework
-      - title: "기타"
-#        url: /develop/etc
+
+  - title: "일상"
+    children:
+      - title: "기록"
+        url: /categories/diary
 
 #  - title: 일상
 #    children:
